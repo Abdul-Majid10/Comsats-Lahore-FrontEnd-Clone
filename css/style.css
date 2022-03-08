@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  width: 100%;
 }
 
 li {
@@ -157,4 +158,33 @@ li.no-left-margin {
   cursor: pointer;
   background-color: #994215;
   color: white;
+}
+
+/* download resources*/
+.download-widget {
+  padding: 2rem 2rem;
+}
+
+.download-widget-child {
+  margin: 0 0.5rem;
+}
+
+.download-widget-child button {
+  width: 100%;
+  height: 50px;
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #994215;
+  color: white;
+}
+
+.download-widget-child .grey-button {
+  background-color: #ecebe7;
+  color: rgb(90, 90, 90);
+}
+
+.download-widget-child i {
+  padding-right: 0.5rem;
 }
